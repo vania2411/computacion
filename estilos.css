@@ -1,0 +1,193 @@
+@charset utf=8;
+article, aside, header, nav, section, footer, figure, figcaption{display: block;}
+body{margin:0px;color:white; font-family:"Tahoma";
+background:
+#493E39;}
+body {
+    width: 100%;
+    margin: 0px;
+    overflow-x:hidden;
+}
+
+nav h2{
+    display: none;
+}
+aside h2{
+    display: none;
+}
+h3{
+    display: none;
+}
+
+h1{
+    width: 380px;
+    height: 60px;
+    text-indent: -9999px;
+    background: url(Imagines/iconos/logo.png);   
+}
+nav h2 {
+    display: none;
+}
+nav {
+    max-width:1960px; 
+    min-width:640px;
+    width: 80%;
+    margin-top:90px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin:0px auto 0px auto;
+    border-radius: 1000px;
+    padding: 1px 1px;
+    background-color:#980D2E; 
+}
+nav li a{
+    color: white;
+    text-decoration-color: #780520;
+    font-family: "arial";
+    flex-basis: 1%;
+    font-size:100%; 
+    text-justify:inter-character;
+    background-color: #980D2E;
+    
+}
+nav ul {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: inherit;
+}
+nav ul li {
+    display: inline-block;
+    align-items:stretch;
+    max-width: 55px;
+}
+h2 {
+    font-family: "Century Gothic";
+    text-align: -webkit-center;
+    display: block;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+h2 figure{
+    align-content: center;
+}
+h{
+      font-family: "Century Gothic"; 
+}
+section {
+    width: auto;
+    display: flex;
+    flex-basis: 50%;
+    /*padding-left: 3%;
+    padding-right: 3%;*/
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    order:2;
+}
+article {
+    margin: 15px;
+    max-width: 100%;
+    /*display: flow-root;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content:center;
+    -ms-flex-line-pack:center;
+    align-content:center;*/
+    display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 2;
+}
+article h4 {
+    
+}
+figure{
+    margin: 0;
+}
+div {
+    width: 50%;
+    margin-top:2vh;
+    display:-webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:horizontal;
+    -webkit-bok-direction:normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-line-pack: center;
+    flex-basis: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+div h4{
+    align-content: flex-end;
+}
+div p{
+    padding: 0px;
+}
+div button {
+    margin: auto;
+    text-align: center;
+}
+
+aside p{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    align-items: center; 
+}
+button {
+    background-color: #7CA400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack:distribute;
+    justify-content:space-around;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100px;
+}
+aside {
+    background: url(Imagines/iconos/Flecha.png);
+    background-position: 10% 45%;
+    background-repeat: no-repeat;
+}
+aside a {    
+    color: white;
+    max-width: 10px;
+
+}
+footer {
+    max-width: 450px;
+    min-width: 540px;
+    padding: 15%;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 35%;
+    background: url(Imagines/iconos/licencia.gif) 95% 85%/auto no-repeat;
+    background-repeat:no-repeat;
+    background-color:#7CA400;color: black;
+    text-align: left;
+    font-family: "avenir";
+    font-size: 120%;
+}
+footer figure {
+}
